@@ -53,6 +53,8 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
+    'api' => parse_url(env('API_URL', 'http://localhost/api')),
+    'api_url' => env('API_URL','http://localhost/api'),
 
     'asset_url' => env('ASSET_URL', null),
 

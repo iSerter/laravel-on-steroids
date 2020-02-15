@@ -36,6 +36,12 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $exception)
     {
+        if ($this->shouldReport($exception)) {
+            if (app()->bound("lern")) {
+                app()->make("lern")->handle($exception); //Record and Notify the Exception
+            }
+        }
+
         parent::report($exception);
     }
 
