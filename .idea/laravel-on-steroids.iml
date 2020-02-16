@@ -130,8 +130,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/image-optimizer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-activitylog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-backup" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-cookie-consent" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-failed-job-monitor" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-fractal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-image-optimizer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-medialibrary" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-permission" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-query-builder" />
