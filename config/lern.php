@@ -2,13 +2,13 @@
 
 return [
 
-    /** 
-     * To avoid infinite loops that generate thousands of records/notifications in an instant 
+    /**
+     * To avoid infinite loops that generate thousands of records/notifications in an instant
      * Please make sure you use a Cache driver that is persistant such as redis, memcache, file, etc
-     * 
+     *
      * Value is in seconds.
      */
-    'ratelimit' => 1, 
+    'ratelimit' => 1,
 
     'record'=>[
         /**
@@ -30,7 +30,7 @@ return [
          * Database table to use
          */
         'table'=>'vendor_tylercd100_lern_exceptions',
-        
+
         /**
          * Information to store
          */
@@ -71,12 +71,12 @@ return [
          * The log level to use when notifying
          */
         'log_level' => 'critical', //Options are: debug, info, notice, warning, error, critical, alert, emergency.
-        
+
         /**
          * When using the default message body this will also include the stack trace
          */
         'includeExceptionStackTrace' => true,
-        
+
         /**
          * mail, pushover, slack, etc...
          */
@@ -86,8 +86,8 @@ return [
          * Mail settings
          */
         'mail'=>[
-            'to'   => 'to@address.com',
-            'from' => 'from@address.com',
+            'to'   => env('SYSADMIN_MAIL_ADDRESS'),
+            'from' => env('MAIL_FROM_ADDRESS'),
             'smtp' => true,
         ],
 
@@ -170,5 +170,5 @@ return [
             'dsn'   => env('RAVEN_DSN'),
         ]
     ],
-    
+
 ];

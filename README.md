@@ -1,12 +1,16 @@
-## Laravel on Steroids 
-I use the following packages almost on any project, so I might as well create a boilerplate. 
+# Laravel on Steroids 
+I use the following packages quite often, so here's a giant boilerplate. 
+
+```$xslt
+git clone https://github.com/iSerter/laravel-on-steroids.git
+```
 
 #### Production Packages
 - laravel/horizon
 - laravel/telescope
-- predis/predis
 - guzzlehttp/guzzle
 - nwidart/laravel-modules
+- qcod/laravel-imageup
 - spatie/laravel-backup
 - spatie/laravel-cors
 - spatie/laravel-medialibrary
@@ -14,14 +18,17 @@ I use the following packages almost on any project, so I might as well create a 
 - spatie/laravel-activitylog
 - spatie/laravel-fractal
 - spatie/laravel-permission
-- tylercd100/lern  `saves exceptions into database and notifies`
+- spatie/laravel-uptime-monitor
+- spatie/laravel-responsecache
+- predis/predis
+- tylercd100/lern  `saves exceptions into database and sends out notifications`
 - tymon/jwt-auth 
 
 #### Dev Packages
 - barryvdh/laravel-debugbar
 - barryvdh/laravel-ide-helper
 - infyomlabs/laravel-generator 
-- beyondcode/laravel-er-diagram-generator
+- beyondcode/laravel-er-diagram-generator `brew install graphviz` or `sudo apt-get install graphviz`
 - jeroen-g/laravel-packager
 - themsaid/laravel-mail-preview `mail driver for saving rendered output as file`
 - asvae/laravel-api-tester 
@@ -35,7 +42,16 @@ Avoid composer's memory limit;
 php -d memory_limit=-1 composer.phar update
 ```
 
-### Image Optimizers
+#### JWT Auth
+Don't forget to create a jwt signer key.
+```$xslt
+php artisan jwt:secret
+```
+
+#### Set up SYSADMIN Email Address
+Set `SYSADMIN_MAIL_ADDRESS` in `.env`
+
+#### Image Optimizers
 
 Ubuntu
 ```$xslt

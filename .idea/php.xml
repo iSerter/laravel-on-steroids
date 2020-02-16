@@ -179,6 +179,17 @@
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-failed-job-monitor" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-image-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-json-api-paginate" />
+      <path value="$PROJECT_DIR$/vendor/spatie/menu" />
+      <path value="$PROJECT_DIR$/vendor/spatie/macroable" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-menu" />
+      <path value="$PROJECT_DIR$/vendor/spatie/url" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/guzzle-factory" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-uptime-monitor" />
+      <path value="$PROJECT_DIR$/vendor/spatie/ssl-certificate" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-model-status" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-responsecache" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
