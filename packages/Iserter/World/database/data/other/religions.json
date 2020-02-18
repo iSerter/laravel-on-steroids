@@ -1,0 +1,8 @@
+[
+    {"name":  "Christianity", "follower":  "Christian"},
+    {"name":  "Islam", "follower":  "Muslim"},
+    {"name":  "Hinduism", "follower":  "Hindu"},
+    {"name":  "Buddhism", "follower":  "Buddhist"},
+    {"name":  "Judaism", "follower":  "Jew"},
+    {"name":  "Other", "follower":  "Other"}
+]

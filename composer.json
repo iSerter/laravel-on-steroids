@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "iserter/laravel-on-steroids",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
@@ -13,6 +13,7 @@
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
         "intervention/image": "^2.5",
+        "iserter/world": "dev-master",
         "laravel/framework": "^6.2",
         "laravel/horizon": "^3.7",
         "laravel/telescope": "^2.1",
@@ -41,7 +42,8 @@
         "spatie/laravel-tail": "^3.3",
         "spatie/laravel-uptime-monitor": "^3.7",
         "tylercd100/lern": "^5.0",
-        "tymon/jwt-auth": "1.0.0-rc.5"
+        "tymon/jwt-auth": "1.0.0-rc.5",
+        "ext-json": "*"
     },
     "require-dev": {
         "asvae/laravel-api-tester": "^2.0",
@@ -100,5 +102,11 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
+    },
+    "repositories": {
+        "iserter/world": {
+            "type": "path",
+            "url": "/Users/iserter/Projects/Personal/laravel-on-steroids/packages/Iserter/World"
+        }
     }
 }
