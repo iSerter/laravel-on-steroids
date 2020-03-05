@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  php-server:
+    image: iserter/php-fpm:7.4 # this image is also on steroids.
+    depends_on:
+      - mysql
+      - redis
+    volumes:
+      - ./:/app:cached
+
+  queue-worker:
+    build: .devops/queue-worker
+    image: iserter/laravel-worker
+    command: php artisan horizon
+    depends_on:
+      - mysql
+    volumes:
+      - ./:/app:cached
+
+#  node:
+#    image: node:12.16.1-alpine
+#    volumes:
+#      - ./:/app:cached
+
+  mysql:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=app_database
+    volumes:
+      - db-data:/var/lib/mysql:cached
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8000:8000"
+    volumes:
+      - .devops/nginx/app.conf:/etc/nginx/conf.d/default.conf:cached
+      - ./:/app:cached
+    depends_on:
+      - php-server
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  db-data:

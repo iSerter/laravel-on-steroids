@@ -2,7 +2,7 @@
 I use the following packages quite often, so here's a giant boilerplate. 
 
 ```$xslt
-git clone https://github.com/iSerter/laravel-on-steroids.git
+composer create-project --prefer-dist iserter/laravel-on-steroids yourproject
 ```
 
 #### Production Packages
@@ -13,16 +13,18 @@ git clone https://github.com/iSerter/laravel-on-steroids.git
 - qcod/laravel-imageup
 - spatie/laravel-backup
 - spatie/laravel-cors
+- spatie/laravel-cookie-consent
 - spatie/laravel-medialibrary
 - spatie/laravel-query-builder
 - spatie/laravel-activitylog
-- spatie/laravel-fractal
 - spatie/laravel-permission
 - spatie/laravel-uptime-monitor
 - spatie/laravel-responsecache
+- jdavidbakr/mail-tracker
 - predis/predis
 - tylercd100/lern  `saves exceptions into database and sends out notifications`
 - tymon/jwt-auth 
+- lorisleiva/laravel-deployer
 
 #### Dev Packages
 - barryvdh/laravel-debugbar

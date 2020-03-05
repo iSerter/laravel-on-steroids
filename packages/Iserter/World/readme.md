@@ -3,19 +3,20 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+A compliment to my [laravel-on-steroids][link-laravel-on-steroids] boilerplate. 
+/!\ Still under development. 
 
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require iserter/world
+$ composer require iserter/laravel-world
 ```
 
 ## Usage
+/!\ Under development.
 
 ## Change log
 
@@ -31,27 +32,19 @@ $ composer test
 
 Please see [contributing.md](contributing.md) for details and a todolist.
 
-## Security
-
-If you discover any security related issues, please email author email instead of using the issue tracker.
-
 ## Credits
 
-- [author name][link-author]
-- [All Contributors][link-contributors]
+- [Ilyas Serter][link-author]
 
 ## License
+MIT. Please see the [license file](license.md) for more information.
 
-license. Please see the [license file](license.md) for more information.
+[ico-version]: https://img.shields.io/packagist/v/iserter/laravel-world.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/iserter/laravel-world.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/iserter/laravel-world/master.svg?style=flat-square
 
-[ico-version]: https://img.shields.io/packagist/v/iserter/world.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/iserter/world.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/iserter/world/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
-[link-packagist]: https://packagist.org/packages/iserter/world
-[link-downloads]: https://packagist.org/packages/iserter/world
-[link-travis]: https://travis-ci.org/iserter/world
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/iserter
-[link-contributors]: ../../contributors
+[link-packagist]: https://packagist.org/packages/iserter/laravel-world
+[link-downloads]: https://packagist.org/packages/iserter/laravel-world
+[link-travis]: https://travis-ci.org/iserter/laravel-world
+[link-author]: https://github.com/iSerter
+[link-laravel-on-steroids]: https://github.com/iSerter/laravel-on-steroids

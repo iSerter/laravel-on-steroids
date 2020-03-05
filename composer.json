@@ -9,11 +9,13 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "ext-json": "*",
         "artesaos/seotools": "^0.16.0",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
         "intervention/image": "^2.5",
-        "iserter/world": "dev-master",
+        "iserter/laravel-world": "dev-master",
+        "jdavidbakr/mail-tracker": "^3.0",
         "laravel/framework": "^6.2",
         "laravel/horizon": "^3.7",
         "laravel/telescope": "^2.1",
@@ -21,6 +23,7 @@
         "laravolt/avatar": "^3.0",
         "league/flysystem-aws-s3-v3": "^1.0",
         "league/flysystem-cached-adapter": "^1.0",
+        "lorisleiva/laravel-deployer": "^0.3.0",
         "nwidart/laravel-modules": "^6.2",
         "predis/predis": "^1.1",
         "propaganistas/laravel-phone": "^4.2",
@@ -30,7 +33,6 @@
         "spatie/laravel-cookie-consent": "^2.11",
         "spatie/laravel-cors": "^1.6",
         "spatie/laravel-failed-job-monitor": "^3.2",
-        "spatie/laravel-fractal": "^5.6",
         "spatie/laravel-image-optimizer": "^1.5",
         "spatie/laravel-json-api-paginate": "^1.6",
         "spatie/laravel-medialibrary": "^7.12",
@@ -42,8 +44,7 @@
         "spatie/laravel-tail": "^3.3",
         "spatie/laravel-uptime-monitor": "^3.7",
         "tylercd100/lern": "^5.0",
-        "tymon/jwt-auth": "1.0.0-rc.5",
-        "ext-json": "*"
+        "tymon/jwt-auth": "1.0.0-rc.5"
     },
     "require-dev": {
         "asvae/laravel-api-tester": "^2.0",
@@ -104,7 +105,7 @@
         ]
     },
     "repositories": {
-        "iserter/world": {
+        "iserter/laravel-world": {
             "type": "path",
             "url": "/Users/iserter/Projects/Personal/laravel-on-steroids/packages/Iserter/World"
         }

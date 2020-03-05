@@ -25,15 +25,15 @@ return [
 
         'request'           => app_path('Http/Admin/Requests/'),
 
-        'api_request'       => app_path('Http/API/Requests/'),
+        'api_request'       => app_path('Http/Api/Requests/'),
 
         'controller'        => app_path('Http/Admin/Controllers/'),
 
-        'api_controller'    => app_path('Http/API/Controllers/'),
+        'api_controller'    => app_path('Http/Api/Controllers/'),
 
         'repository_test'   => base_path('tests/Repositories/'),
 
-        'api_test'          => base_path('tests/APIs/'),
+        'api_test'          => base_path('tests/Api/'),
 
         'tests'             => base_path('tests/'),
 
@@ -69,15 +69,15 @@ return [
 
         'controller'        => 'App\Http\Admin\Controllers',
 
-        'api_controller'    => 'App\Http\API\Controllers',
+        'api_controller'    => 'App\Http\Api\Controllers',
 
         'request'           => 'App\Http\Admin\Requests',
 
-        'api_request'       => 'App\Http\API\Requests',
+        'api_request'       => 'App\Http\Api\Requests',
 
         'repository_test'   => 'Tests\Repositories',
 
-        'api_test'          => 'Tests\APIs',
+        'api_test'          => 'Tests\Api',
 
         'tests'             => 'Tests',
     ],
