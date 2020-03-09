@@ -106,7 +106,7 @@
     "repositories": {
         "iserter/laravel-world": {
             "type": "path",
-            "url": "./packages/Iserter/World"
+            "url": "packages/Iserter/World"
         }
     }
 }
