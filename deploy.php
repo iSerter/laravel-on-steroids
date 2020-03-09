@@ -27,6 +27,7 @@ set('allow_anonymous_stats', false);
 // Hosts
 
 host('api.staging.forward.me')
+    ->stage('staging')
     ->set('deploy_path', '~/var/www/laravel-on-steroids');
 
 // Tasks
