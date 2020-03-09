@@ -55,7 +55,7 @@ jobs:
 
   deploy_staging:
     docker:
-      - image: iserter/php-fpm:7.4
+      - image: circleci/php:7.2-browsers
     working_directory: ~/app
     steps:
       - checkout
