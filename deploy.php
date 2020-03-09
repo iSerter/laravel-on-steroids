@@ -29,6 +29,10 @@ set('allow_anonymous_stats', false);
 host('api.staging.forward.me')
     ->stage('staging')
     ->user('ec2-user')
+    ->sshOptions([
+        'UserKnownHostsFile=/dev/null',
+        'StrictHostKeyChecking=no',
+    ])
     ->set('deploy_path', '/var/www/staging/laravel-on-steroids');
 
 // Tasks
