@@ -30,7 +30,6 @@ host('api.staging.forward.me')
     ->stage('staging')
     ->user('ec2-user')
     ->addSshOption('StrictHostKeyChecking','no')
-    ->addSshOption('UserKnownHostsFile','/dev/null')
     ->set('deploy_path', '/var/www/staging/laravel-on-steroids');
 
 // Tasks
