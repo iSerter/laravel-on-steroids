@@ -83,3 +83,22 @@ sudo npm install -g svgo
 sudo dnf install gifsicle
 sudo dnf install libwebp-tools
 ```
+
+### Docker
+
+##### Compose
+```$xslt
+docker-compose up -d
+```
+
+##### SSH into a container
+```$xslt
+sudo docker exec -it CONTAINER_ID /bin/sh 
+```
+
+##### Kill all running containers
+```$xslt
+docker container kill $(docker ps -q)
+```
+
+

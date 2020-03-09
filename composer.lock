@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88b807ec701f7910eef61ee804f38f2e",
+    "content-hash": "87b974a220af42a4b08aae6d18ccd132",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -178,16 +178,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.133.29",
+            "version": "3.133.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ec8f628041e0d1de4fad76ac041c6025bd38d2da"
+                "reference": "330a696c1f1de0267921f732602e55fb3ddfd550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ec8f628041e0d1de4fad76ac041c6025bd38d2da",
-                "reference": "ec8f628041e0d1de4fad76ac041c6025bd38d2da",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/330a696c1f1de0267921f732602e55fb3ddfd550",
+                "reference": "330a696c1f1de0267921f732602e55fb3ddfd550",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-03-04T19:10:59+00:00"
+            "time": "2020-03-06T19:16:46+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -1880,69 +1880,6 @@
             "time": "2019-08-27T14:40:26+00:00"
         },
         {
-            "name": "laravel/telescope",
-            "version": "v2.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/telescope.git",
-                "reference": "5aa2a29faebb0f27b2437292237f4e310a60d5ec"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/telescope/zipball/5aa2a29faebb0f27b2437292237f4e310a60d5ec",
-                "reference": "5aa2a29faebb0f27b2437292237f4e310a60d5ec",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "laravel/framework": "~5.8.0|^6.0|^7.0",
-                "moontoast/math": "^1.1",
-                "php": "^7.1.3",
-                "symfony/var-dumper": "^4.1|^5.0"
-            },
-            "require-dev": {
-                "ext-gd": "*",
-                "orchestra/testbench": "^3.8|^4.0|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Telescope\\TelescopeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Telescope\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                },
-                {
-                    "name": "Mohamed Said",
-                    "email": "mohamed@laravel.com"
-                }
-            ],
-            "description": "An elegant debug assistant for the Laravel framework.",
-            "keywords": [
-                "debugging",
-                "laravel",
-                "monitoring"
-            ],
-            "time": "2020-02-18T19:37:42+00:00"
-        },
-        {
             "name": "laravel/tinker",
             "version": "v2.2.0",
             "source": {
@@ -2203,16 +2140,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.64",
+            "version": "1.0.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0"
+                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d13c43dbd4b791f815215959105a008515d1a2e0",
-                "reference": "d13c43dbd4b791f815215959105a008515d1a2e0",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
+                "reference": "8f17b3ba67097aafb8318cd5c553b1acf7c891c8",
                 "shasum": ""
             },
             "require": {
@@ -2283,7 +2220,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2020-02-05T18:14:17+00:00"
+            "time": "2020-03-08T18:53:20+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -2748,57 +2685,6 @@
                 "psr-3"
             ],
             "time": "2019-12-20T14:15:16+00:00"
-        },
-        {
-            "name": "moontoast/math",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/moontoast-math.git",
-                "reference": "5f47d34c87767dbcc08b30377a9827df71de91fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/moontoast-math/zipball/5f47d34c87767dbcc08b30377a9827df71de91fa",
-                "reference": "5f47d34c87767dbcc08b30377a9827df71de91fa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "phpseclib/bcmath_compat": ">=1.0.3"
-            },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "^0.9.0",
-                "phpunit/phpunit": "^4.8 || ^5.5 || ^6.5 || ^7.0",
-                "satooshi/php-coveralls": "^0.6.1",
-                "squizlabs/php_codesniffer": "^2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Moontoast\\Math\\": "src/Moontoast/Math",
-                    "Moontoast\\Math\\Exception\\": "src/Moontoast/Math/Exception"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
-                }
-            ],
-            "description": "A mathematics library, providing functionality for large numbers",
-            "homepage": "https://github.com/ramsey/moontoast-math",
-            "keywords": [
-                "bcmath",
-                "math"
-            ],
-            "abandoned": "brick/math",
-            "time": "2020-01-05T04:49:34+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -3270,22 +3156,22 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "0b537bf4d34a8da92759b79fcbe371e10b0135f0"
+                "reference": "133e2756f15e8e605c22973d255290798f933e70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/0b537bf4d34a8da92759b79fcbe371e10b0135f0",
-                "reference": "0b537bf4d34a8da92759b79fcbe371e10b0135f0",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/133e2756f15e8e605c22973d255290798f933e70",
+                "reference": "133e2756f15e8e605c22973d255290798f933e70",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "^6.9",
+                "laravel/framework": "^6.18",
                 "mockery/mockery": "~1.2.3 || ^1.3.1",
-                "orchestra/testbench-core": "^4.6",
+                "orchestra/testbench-core": "^4.7",
                 "php": ">=7.2",
                 "phpunit/phpunit": "^8.3 || ^9.0"
             },
@@ -3316,20 +3202,20 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2020-01-29T23:03:49+00:00"
+            "time": "2020-03-06T23:23:46+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "6e6f1c330d37563d2ecca125d6b672e752ab88b5"
+                "reference": "fad3769a7903021f5784d5d76aa6eb3a3904b215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/6e6f1c330d37563d2ecca125d6b672e752ab88b5",
-                "reference": "6e6f1c330d37563d2ecca125d6b672e752ab88b5",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/fad3769a7903021f5784d5d76aa6eb3a3904b215",
+                "reference": "fad3769a7903021f5784d5d76aa6eb3a3904b215",
                 "shasum": ""
             },
             "require": {
@@ -3337,13 +3223,13 @@
                 "php": ">=7.2"
             },
             "require-dev": {
-                "laravel/framework": "^6.9",
-                "laravel/laravel": "dev-master",
-                "mockery/mockery": "^1.2.3",
+                "laravel/framework": "^6.18.0",
+                "laravel/laravel": "6.x-dev",
+                "mockery/mockery": "~1.2.3 || ^1.3.1",
                 "phpunit/phpunit": "^8.3 || ^9.0"
             },
             "suggest": {
-                "laravel/framework": "Required for testing (^6.9).",
+                "laravel/framework": "Required for testing (^6.18).",
                 "mockery/mockery": "Allow using Mockery for testing (^1.2.3).",
                 "orchestra/testbench-browser-kit": "Allow using legacy Laravel BrowserKit for testing (^4.0).",
                 "orchestra/testbench-dusk": "Allow using Laravel Dusk for testing (^4.0).",
@@ -3381,7 +3267,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2020-01-29T22:59:50+00:00"
+            "time": "2020-03-06T23:07:37+00:00"
         },
         {
             "name": "org_heigl/ghostscript",
@@ -3837,163 +3723,17 @@
             "time": "2019-12-15T19:35:24+00:00"
         },
         {
-            "name": "phpseclib/bcmath_compat",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpseclib/bcmath_compat.git",
-                "reference": "f805922db4b3d8c1e174dafb74ac7374264e8880"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/bcmath_compat/zipball/f805922db4b3d8c1e174dafb74ac7374264e8880",
-                "reference": "f805922db4b3d8c1e174dafb74ac7374264e8880",
-                "shasum": ""
-            },
-            "require": {
-                "phpseclib/phpseclib": ">=2.0.19"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "squizlabs/php_codesniffer": "^3.0"
-            },
-            "suggest": {
-                "ext-gmp": "Will enable faster math operations"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "lib/bcmath.php"
-                ],
-                "psr-4": {
-                    "bcmath_compat\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jim Wigginton",
-                    "email": "terrafrost@php.net",
-                    "homepage": "http://phpseclib.sourceforge.net"
-                }
-            ],
-            "description": "PHP 5.x/7.x polyfill for bcmath extension",
-            "keywords": [
-                "BigInteger",
-                "bcmath",
-                "bigdecimal",
-                "math",
-                "polyfill"
-            ],
-            "time": "2020-01-10T11:44:43+00:00"
-        },
-        {
-            "name": "phpseclib/phpseclib",
-            "version": "2.0.25",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "c18159618ed7cd7ff721ac1a8fec7860a475d2f0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/c18159618ed7cd7ff721ac1a8fec7860a475d2f0",
-                "reference": "c18159618ed7cd7ff721ac1a8fec7860a475d2f0",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "suggest": {
-                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
-                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
-                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "phpseclib/bootstrap.php"
-                ],
-                "psr-4": {
-                    "phpseclib\\": "phpseclib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jim Wigginton",
-                    "email": "terrafrost@php.net",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Patrick Monnerat",
-                    "email": "pm@datasphere.ch",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Andreas Fischer",
-                    "email": "bantu@phpbb.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Hans-Jürgen Petrich",
-                    "email": "petrich@tronic-media.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
-            "homepage": "http://phpseclib.sourceforge.net",
-            "keywords": [
-                "BigInteger",
-                "aes",
-                "asn.1",
-                "asn1",
-                "blowfish",
-                "crypto",
-                "cryptography",
-                "encryption",
-                "rsa",
-                "security",
-                "sftp",
-                "signature",
-                "signing",
-                "ssh",
-                "twofish",
-                "x.509",
-                "x509"
-            ],
-            "time": "2020-02-25T04:16:50+00:00"
-        },
-        {
             "name": "phpspec/prophecy",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -4043,7 +3783,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -10180,16 +9920,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "1.16.0",
+            "version": "1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "37f094775814b68d0c6cc8b8ff3c3be243f20725"
+                "reference": "af05ac5ee8587395d7474ec0681c08776a2cb09d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/37f094775814b68d0c6cc8b8ff3c3be243f20725",
-                "reference": "37f094775814b68d0c6cc8b8ff3c3be243f20725",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/af05ac5ee8587395d7474ec0681c08776a2cb09d",
+                "reference": "af05ac5ee8587395d7474ec0681c08776a2cb09d",
                 "shasum": ""
             },
             "require": {
@@ -10216,7 +9956,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "v2.x-dev"
+                    "dev-master": "1.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -10247,7 +9987,7 @@
                 "laravel",
                 "page"
             ],
-            "time": "2020-01-21T17:46:02+00:00"
+            "time": "2020-03-05T12:39:07+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -10510,27 +10250,27 @@
         },
         {
             "name": "jeroen-g/laravel-packager",
-            "version": "V2.4",
+            "version": "2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jeroen-G/laravel-packager.git",
-                "reference": "bc675b201814919cb5936811acc8ba2bea417823"
+                "reference": "50351b10c806a1a4890bdbdc43d52a1c39742258"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jeroen-G/laravel-packager/zipball/bc675b201814919cb5936811acc8ba2bea417823",
-                "reference": "bc675b201814919cb5936811acc8ba2bea417823",
+                "url": "https://api.github.com/repos/Jeroen-G/laravel-packager/zipball/50351b10c806a1a4890bdbdc43d52a1c39742258",
+                "reference": "50351b10c806a1a4890bdbdc43d52a1c39742258",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-zip": "*",
                 "guzzlehttp/guzzle": "~6",
-                "illuminate/support": "~5|~6"
+                "illuminate/support": "^5.0|^6.0|^7.0"
             },
             "require-dev": {
                 "orchestra/testbench": ">=3.8",
-                "phpunit/phpunit": "~8"
+                "phpunit/phpunit": "^8.0|^9.0"
             },
             "suggest": {
                 "sensiolabs/security-checker": "Required to use the security check command"
@@ -10567,7 +10307,7 @@
                 "package",
                 "packager"
             ],
-            "time": "2019-12-22T19:55:09+00:00"
+            "time": "2020-03-05T08:10:23+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -10887,20 +10627,20 @@
         },
         {
             "name": "mpociot/documentarian",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpociot/documentarian.git",
-                "reference": "6a9f227ec1d1d295d4d3ee91bca0a6a98585684f"
+                "reference": "c7dc266b6646a49f82b304a3451e41161cc4b1c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpociot/documentarian/zipball/6a9f227ec1d1d295d4d3ee91bca0a6a98585684f",
-                "reference": "6a9f227ec1d1d295d4d3ee91bca0a6a98585684f",
+                "url": "https://api.github.com/repos/mpociot/documentarian/zipball/c7dc266b6646a49f82b304a3451e41161cc4b1c3",
+                "reference": "c7dc266b6646a49f82b304a3451e41161cc4b1c3",
                 "shasum": ""
             },
             "require": {
-                "illuminate/view": "5.*|^6.0",
+                "illuminate/view": "5.*|^6.0|^7.0",
                 "mnapoli/front-yaml": "^1.5",
                 "mnapoli/silly": "~1.0",
                 "php": ">=5.5.9",
@@ -10931,20 +10671,20 @@
                     "email": "m.pociot@gmail.com"
                 }
             ],
-            "time": "2019-09-04T22:15:39+00:00"
+            "time": "2020-03-06T07:31:21+00:00"
         },
         {
             "name": "mpociot/laravel-apidoc-generator",
-            "version": "4.3.0",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpociot/laravel-apidoc-generator.git",
-                "reference": "b08d17970e3b6753255937030dff5792c5f2e9fd"
+                "reference": "3b0d8d4aeac156f719c706189124631a471a1bbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpociot/laravel-apidoc-generator/zipball/b08d17970e3b6753255937030dff5792c5f2e9fd",
-                "reference": "b08d17970e3b6753255937030dff5792c5f2e9fd",
+                "url": "https://api.github.com/repos/mpociot/laravel-apidoc-generator/zipball/3b0d8d4aeac156f719c706189124631a471a1bbb",
+                "reference": "3b0d8d4aeac156f719c706189124631a471a1bbb",
                 "shasum": ""
             },
             "require": {
@@ -10954,7 +10694,7 @@
                 "illuminate/routing": "^5.7|^6.0|^7.0",
                 "illuminate/support": "^5.7|^6.0|^7.0",
                 "league/flysystem": "^1.0",
-                "mpociot/documentarian": "^0.3.0",
+                "mpociot/documentarian": "^0.4.0",
                 "mpociot/reflection-docblock": "^1.0.1",
                 "nunomaduro/collision": "^3.0|^4.0",
                 "php": ">=7.2.0",
@@ -11007,7 +10747,7 @@
                 "documentation",
                 "laravel"
             ],
-            "time": "2020-02-22T00:59:27+00:00"
+            "time": "2020-03-07T17:23:58+00:00"
         },
         {
             "name": "mpociot/reflection-docblock",

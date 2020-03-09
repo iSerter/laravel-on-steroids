@@ -55,13 +55,13 @@ jobs:
 
   deploy_staging:
     docker:
-      - image: circleci/php:7.2-browsers
+      - image: iserter/php-fpm:7.4
     working_directory: ~/app
     steps:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "FINGERPRINT:HERE"
+            - "a0:f7:85:bf:3e:36:01:3f:58:d7:be:6c:58:63:f8:3c"
       - run:
           name: Install Deployer
           command: |
@@ -78,9 +78,9 @@ workflows:
   build:
     jobs:
       - build
-#      - deploy_staging:
-#          requires:
-#            - build
+      - deploy_staging:
+          requires:
+            - build
 #          filters:
 #            branches:
 #              only: dev

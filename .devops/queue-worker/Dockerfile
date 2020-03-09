@@ -8,6 +8,9 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 # Changing Workdir
 WORKDIR /app
 
-CMD []
-ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["/usr/bin/supervisord"]
+# ENTRYPOINT ["/usr/bin/supervisord"] does not work.
+# --> "Error: positional arguments are not supported"
+# http://stackoverflow.com/questions/22465003/error-positional-arguments-are-not-supported
+#ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 #ENTRYPOINT ["bash", "/opt/bin/run_supervisord.sh"]
