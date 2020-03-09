@@ -12,7 +12,7 @@ jobs:
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
           MYSQL_USER: root
           MYSQL_ROOT_PASSWORD: 'secret'
-          MYSQL_DATABASE: app_testing
+          MYSQL_DATABASE: app_database
       - image: redis:3
     working_directory: ~/app
     steps:
@@ -49,9 +49,9 @@ jobs:
           name: Seed Test Data
           command: php artisan db:seed
 
-      - run:
-          name:  Run Tests
-          command: ./vendor/bin/phpunit
+#      - run:
+#          name:  Run Tests
+#          command: ./vendor/bin/phpunit
 
   deploy_staging:
     docker:
