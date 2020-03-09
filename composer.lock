@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e9eee031b078d9d0503ce8ce1391ec6",
+    "content-hash": "ef286c9ec016214b1b5f7199b6c16df1",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -1392,68 +1392,6 @@
                 "watermark"
             ],
             "time": "2019-11-02T09:15:47+00:00"
-        },
-        {
-            "name": "iserter/laravel-world",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "/Users/iserter/Projects/Personal/laravel-on-steroids/packages/Iserter/World",
-                "reference": "992a3d29f2c5887a651ec45f02f9d8288c41f77e"
-            },
-            "require": {
-                "ext-json": "*",
-                "illuminate/support": "~5|~6",
-                "php": "^7.2"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.1",
-                "orchestra/testbench": "~3|~4",
-                "phpunit/phpunit": "^8.0",
-                "sempro/phpunit-pretty-print": "^1.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Iserter\\World\\WorldServiceProvider"
-                    ],
-                    "aliases": {
-                        "World": "Iserter\\World\\Facades\\World"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Iserter\\World\\": "src/"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Iserter\\World\\Tests\\": "tests"
-                }
-            },
-            "license": [
-                "license"
-            ],
-            "authors": [
-                {
-                    "name": "ilyas serter",
-                    "email": "ilyasserter@gmail.com",
-                    "homepage": "https://www.ilyasserter.com"
-                }
-            ],
-            "description": "Laravel package with world data, models, migrations, and possibly more in the future.",
-            "homepage": "https://github.com/iserter/laravel-world",
-            "keywords": [
-                "Cities",
-                "Countries",
-                "Laravel",
-                "Laravel World",
-                "States",
-                "World",
-                "World data"
-            ]
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -11391,7 +11329,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "iserter/laravel-world": 20,
         "infyomlabs/adminlte-templates": 20,
         "infyomlabs/laravel-generator": 20,
         "infyomlabs/swagger-generator": 20

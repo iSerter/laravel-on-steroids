@@ -14,7 +14,6 @@
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.5",
         "intervention/image": "^2.5",
-        "iserter/laravel-world": "dev-master",
         "jdavidbakr/mail-tracker": "^3.0",
         "laravel/framework": "^6.2",
         "laravel/horizon": "^3.7",
@@ -102,11 +101,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": {
-        "iserter/laravel-world": {
-            "type": "path",
-            "url": "packages/Iserter/World"
-        }
     }
 }
