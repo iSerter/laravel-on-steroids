@@ -106,7 +106,7 @@
     "repositories": {
         "iserter/laravel-world": {
             "type": "path",
-            "url": "/Users/iserter/Projects/Personal/laravel-on-steroids/packages/Iserter/World"
+            "url": "./packages/Iserter/World"
         }
     }
 }
